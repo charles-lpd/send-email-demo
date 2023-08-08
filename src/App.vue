@@ -125,9 +125,9 @@ import { ref, reactive } from 'vue'
 import { sendEmail, formatFileSize } from '@/libs/index'
 
 const uploadData = reactive({
-  from: 'xiaopangdong0@gmail.com',
-  password: 'zamralwiqooobxnl', // 应用专用密码
-  to: ['charles@ever.finance'],
+  from: 'xxx@gmail.com', // 发送者
+  password: '', // 应用专用密码
+  to: ['xxx@gmail.com'], // 接收者
   title: '',
   contentType: 'text/plain',
   emailContent: ''
