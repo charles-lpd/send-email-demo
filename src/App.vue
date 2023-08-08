@@ -126,7 +126,7 @@ import { sendEmail, formatFileSize } from '@/libs/index'
 
 const uploadData = reactive({
   from: 'xiaopangdong0@gmail.com',
-  password: 'zamralwiqooobxnl',
+  password: 'zamralwiqooobxnl', // 应用专用密码
   to: ['charles@ever.finance'],
   title: '',
   contentType: 'text/plain',
